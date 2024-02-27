@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav.nav {
+    height: 3rem;
+    width: 100%;
+    background-color: aliceblue;
+    color: navy;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+center {
+    padding-top: 0.5rem;
+    font-size: 2rem;
+    background-image: url('https://cdn.pixabay.com/photo/2015/12/08/10/38/online-shopping-1082727_640.jpg');
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    margin-right: 30rem;
+    font-weight: bold;
+}
+div.sidemenu {
+    height: 35rem;
+    width: 12.5rem;
+    background-color: aliceblue;
+    box-shadow:rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px ;   
+}
+
+marquee>img {
+    height: 10rem;
+    width: 15rem;
+}
+
+div>p {
+    font-size: 20px;
+    color: lightcoral;
+    text-align: center;
+}
+
+div#sidebar {
+    position: absolute;
+    top: 50px;
+}
+
+div>ul.listCategory {
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+div>ul>li>button.btn1 {
+    height: 30px;
+    width: 180px;
+    border: none;
+    border-radius: 5px;
+}
+
+div>ul>li>button.btn1:hover {
+    background-color: lightskyblue;
+}
+
+div>ul>li.list1 {
+    height: 30px;
+    width: 180px;
+    list-style-type: none;
+    background-color: rgb(215, 233, 249);
+    padding-top: 5px;
+    padding-left: 10px;
+    margin: 5px;
+    color: rgb(129, 126, 126);
+    border-radius: 5px;
+
+}
+
+div>ul>li.list1:hover {
+    background-color: rgb(60, 237, 178);
+    color: white;
+    cursor: pointer;
+}
+
+div>ul>li.list2 {
+    height: 30px;
+    width: 180px;
+    list-style-type: none;
+    background-color: rgb(195, 246, 246);
+    padding-top: 5px;
+    padding-left: 10px;
+    margin: 5px;
+    color: rgb(129, 126, 126);
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+div>ul>li.list2:hover {
+    background-color: rgb(51, 100, 144);
+    color: white;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 12rem;
+    flex-shrink: 2rem;
+    gap: 1rem;
+
+}
+.card {
+    background-color: rgb(235, 245, 235);
+    height: 18rem;
+    width: 16rem;
+    border: 1px solid whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+div.card>img {
+    height: 15rem;
+    width: 16rem;
+}
+div.card>span {
+    font-size: 14px;
+    color: rgb(55, 54, 54);
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0.5rem;
+}
+
+div.card>button.addtocartBtn {
+    float: right;
+    margin-top: -1.8rem;
+    margin-right: 0.5rem;
+    height: 2rem;
+    width: 7rem;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+div.card>button.addtocartBtn:hover {
+    background-color: yellowgreen;
+}
+
+h3.cart-tital {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    background-color: rgb(20, 85, 143);
+}
+
+.increaseButton{
+    background-color: gray;
+    border: none;
+}
+.decreaseButton{
+    background-color: rgb(61, 181, 228);
+    border: none;
+}
+.removeButton{
+    background-color: rgb(243, 90, 90);
+    border: none;
+}
+
+.clear-cart{
+    height:2rem;
+    width:8rem;
+    margin:5px;
+    border-radius: 5px;
+    border: none;
+    background-color: brown;
+    color: white;
+    font-size: 16px;
+}
+
+.cart-total{
+    float: right;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 0.2rem;
+    height:2rem;
+    width:8rem;
+    border-radius: 5px;
+    background-color: rgb(138, 134, 134);
+    color: white;
+}
+
+.cart-button{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 100%;
+
+}
+.cart-quantity{
+    background-color: red;
+    color: white;
+    border-radius: 100%;
+    display: inline-block;
+    width: 1rem;
+    position: relative;
+    top: -1.5rem;
+    right: 0.5rem;
+}
+.cart {
+    width: 25rem;
+    background-color: white;
+    position: absolute;
+    top: 3rem;
+    z-index: 9;
+    display: none;
+}
+.cart-product-image{
+    width: 3rem;
+    height:3rem;
+}
+.cart-product{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cart-product-name{
+    color: rgb(2, 2, 67);
+    flex-wrap: wrap;
+}
+.cart-product-price{
+    color:green;
+}

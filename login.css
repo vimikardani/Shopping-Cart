@@ -1,0 +1,60 @@
+/* style on main div for background */
+body{
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190619/ourmid/pngtree-shopping-mall-supermarket-selection-merchandise-poster-background-material-image_133225.jpg');
+    /* background-image: url('https://img.freepik.com/premium-vector/happy-woman-shopping-flat-character-concept-web-design-young-girl-with-bags-makes-purchases_9209-7483.jpg?w=360'); */
+    /* background-image: url('https://t4.ftcdn.net/jpg/05/53/40/37/360_F_553403777_lHnxCQB2VbjZTbwuOBwsTW8stkgEPmIJ.jpg'); */
+    /* background-image: url('https://img.freepik.com/premium-photo/shopping-banner-with-shopping-bags-gift-boxes-3d-render-illustration-perfect-shopping-banner_7209-503.jpg?w=2000'); */
+    background-size: 1100px;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+
+div.container{
+    height:350px;
+    width:350px;
+    border:none  ;
+    background:linear-gradient(rgb(31, 31, 97),rgb(60, 60, 105),rgb(101, 101, 136),rgb(87, 87, 180),rgb(71, 71, 242));
+    border-radius: 5px;
+   float: right;
+   margin-right: 300px;
+   margin-top: 100px;
+}   
+p#title{
+    text-transform: uppercase;
+    color:orangered;
+    font-size: 22px;
+    position: relative;
+    top:50px;
+    left:120px;
+    
+}   
+span#login{
+    color:black;
+    
+}
+svg{
+    position: relative;
+    top:20px;
+    left:130px;
+}
+input.input_text{
+    position:relative;
+    top:20px;
+    left: 80px;
+    height:30px;
+    width:200px;
+    background-color: white;
+    border: none;
+    color:black;
+    border-radius: 5px;
+    padding-left:5px;
+}
+button#submitBtn{
+    height:30px;
+    width:80px;
+    margin-left: 140px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    
+}
